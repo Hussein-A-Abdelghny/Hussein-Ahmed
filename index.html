@@ -1,534 +1,679 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task5</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
+    <title>Task4</title>
 </head>
 <body>
-
-<div class="parint-container ">
-    <div class="container ">
-        <div class="header-nav animate__animated animate__backInDown">
-            <Nav>
-                <a href="#">CLASSY <span>ADS</span></a>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="about.html">Ads</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog.html">Contact</a></li>
-                    </ul>
-                <div class="LINK">
-                    <div class="ancour">
-                        <a href="login.html">Log In</a>
-                        <a href="signup.html">Register</a>
+    <div class="header">
+        <div class="header-top animate__animated animate__backInDown">
+            <div class="container-top">
+                <div class="nav-top" >
+                    <div class="logos-top1" >
+                        <ul>
+                            <li><a href="#">
+                                <span>info@homeverse.com</span>
+                                <i class="fa-regular fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-top-link"> 
+                                    <address>maddi</address>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div>
-                        <button>+ And Post Add</button>
+                    <div class="logos-top2">
+                        <ul class="logos-4">
+                            <li>
+                                <a href="#" class="header-top-social-link">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-top-social-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-top-social-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header-top-social-link">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="header-btn-top">Add Listing</button>
                     </div>
                 </div>
-            </Nav>
+            </div>
+        </div>
+        <div class="header-bottom animate__animated animate__fadeInDown" >
+            <div class="container-bottom">
+                <div class="nav-bottom">
+                    <div class="img-bottom"><a href="#"><img src="img/logo.png" alt="text" ></a></div>
+                    <div class="info-bottom">
+                        <ul >
+                            <li><a href="#home" class="text-bottom">Home</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#about"  class="text-bottom">About</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#service"  class="text-bottom">Service</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#property"  class="text-bottom">Property</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#our" class="text-bottom">Our</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#blog"  class="text-bottom">Blog</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#contact"  class="text-bottom">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-bottom">
+                        <button class="header-bottom-logo"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button class="header-bottom-logo"><i class="fa-regular fa-user"></i></button>
+                        <button class="header-bottom-logo"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
 
-<div class="section-1 animate__animated animate__backInDown">
-    <h1>Largest Classifieds In The World</h1>
-    <p>You can buy, sell anything you want.</p>
-    <div class="box-section-1">
-        <input type="text" value="What are you looking for?"></input>
-        <input type="text"  value="Location">
-        <select class="select-section-1">
-            <option>All Categories</option>
-            <option>Real Estate</option>
-            <option>Books &amp; Magazines</option>
-            <option>Furniture</option>
-            <option>Electronics</option>
-            <option>Cars &amp; Vechicels</option>
-            <option>Others</option>
-        </select>
-        <button>Search</button>
+    <div class="home " id="home">
+        <div class="container-home">
+            <div class="info-home animate__animated animate__backInLeft">
+                <div class="logo-home">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Real Estate Agency</span>
+                </div>
+                <div class="text-home">
+                    <h1>Find Your Dream House By Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="button-home">
+                    <button>Make An Enquiry</button>
+                </div>
+            </div>
+            <div class="img-home" ><img src="img/hero-banner.png" alt="text" class="animate__animated animate__backInRight">
+                </div>
+        </div>
+
+
+        </div>
+
+    <div class="about" id="about">
+        <div class="container-about">
+            <div class="img-about  ">
+                <img src="img/about-banner-1.png" alt="text" class="animate__animated animate__backInLeft">
+                <img class="about-2 animate__animated animate__backInLeft" src="img/about-banner-2.jpg" alt="text" >
+            </div>
+            <div class="info-about animate__animated animate__backInRight">
+                <div class="text-about">
+                    <p class="title-p">About Us</p>
+                    <h1>The Leading Real Estate Rental Marketplace.</h1>
+                    <p class="out-1">Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services</p>
+                    <div class="icons-about">
+                        <ul>
+                            <li><i class="fa-solid fa-house" class="about-icon"></i> Smart Home Design </li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa-brands fa-envira"></i> Beautiful Scene Around</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa-solid fa-wine-glass-empty"></i> Exceptional Lifestyle</li>
+                        </ul>
+                        <ul>
+                            <li><i class="fa-solid fa-shield"></i> Complete 24/7 Security</li>
+                        </ul>
+                    </div>
+                    <p class="out-2">"Enimad minim veniam quis nostrud exercitation llamco laboris. Lorem ipsum dolor sit amet"</p>
+                </div>
+                <div class="button-about"><button>Our Services</button></div>
+            </div>
+        </div>
+        </div>
+
+    <div class="service" id="service">
+        <div class="container-service animate__animated animate__backInUp">
+            <div class="info-ser">
+                <p class="title-p">Our Services</p>
+                <h1>Our Main Focus</h1>
+            </div>
+            <div class="boxs-ser">
+                <div class="box-ser">
+                    <div class="img-ser"><img src="img/service-1.png" alt="text"></div>
+                    <a href="#home" class="h3-ser"> 
+                        <h3>Buy a home</h3>
+                    </a>
+                    <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                    <a href="#home" class="span-ser">
+                        <span>Find A Home</span> 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="box-ser">
+                    <div class="img-ser"><img src="img/service-2.png" alt="text"></div>
+                    <a href="#home" class="h3-ser">
+                        <h3>Rent a home</h3>
+                    </a>
+                    <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                    <a href="#home" class="span-ser">
+                        <span>Find A Home</span> 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="box-ser">
+                    <div class="img-ser"><img src="img/service-3.png" alt="text"></div>
+                    <a href="#home" class="h3-ser">
+                        <h3>Sell a home</h3>
+                    </a>
+                    <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                    <a href="#home" class="span-ser">
+                        <span>Find A Home</span> 
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <div class="property" id="property">
+        <div class="container-property animate__animated animate__zoomInRight">
+            <div class="info-property">
+                <p class="title-p">Properties</p>
+                <h1>Featured Listings</h1>
+            </div>
+                <div class="content-property">
+                <div class="boxs-property">
+                    <div class="big-box">
+                        <div class="box-property">
+                            <div class="img-property">
+                                <a href="#"><img src="img/property-1.jpg" alt="text"></a>
+                            </div>
+                            <div class="info-property">
+                                <a href="#"><span class="for-rent">For Rent</span>
+                                </a>
+                                <a href="#">
+                                    <address class="property-address">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Belmont Gardens, Chicago</span>
+                                    </address>
+                                    
+                                </a>
+                                <a href="#" class="icon-photo-property">
+                                    <span><i class="fa-solid fa-camera"></i>4</span>
+                                    <span><i class="fa-solid fa-film"></i>2</span>
+                                </a>
+                                <div class="text-property">
+                                    <div class="text-box">
+                                        <strong class="price-property">$34,900/Month</strong>
+                                        <a href="#">
+                                            <h3>New Apartment Nice View</h3>
+                                        </a>
+                                        <p>Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood</p>
+                                    <div class="big-box-bottom">
+                                        <div class="box-bottom">                                   
+                                            <strong>3</strong>
+                                            <i class="fa-solid fa-bed"></i>
+                                            <span>Bedrooms</span></div>
+                                        <div class="box-bottom">    
+                                            <strong>2</strong>
+                                            <i class="fa-solid fa-person"></i>
+                                            <span>Bedrooms</span></div>
+                                        <div class="box-bottom">
+                                            <strong>3450</strong>
+                                            <i class="fa-solid fa-square"></i>
+                                            <span>Square Ft</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        </div> 
+                        </div>
+                        <div class="box-property">
+                            <div class="img-property">
+                                <a href="#"><img src="img/property-2.jpg" alt="text"></a>
+                            </div>
+                            <div class="info-property">
+                                <a href="#"><span class="for-rent-2">For Rent</span>
+                                </a>
+                                <a href="#">
+                                    <address class="property-address">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Belmont Gardens, Chicago</span>
+                                    </address>
+                                    
+                                </a>
+                                <a href="#" class="icon-photo-property">
+                                    <span><i class="fa-solid fa-camera"></i>4</span>
+                                    <span><i class="fa-solid fa-film"></i>2</span>
+                                </a>
+                                <div class="text-property">
+                                    <div class="text-box">
+                                        <strong class="price-property">$34,900/Month</strong>
+                                        <a href="#">
+                                            <h3>New Apartment Nice View</h3>
+                                        </a>
+                                        <p>Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood</p>
+                                    <div class="big-box-bottom">
+                                        <div class="box-bottom">                                   
+                                            <strong>3</strong>
+                                            <i class="fa-solid fa-bed"></i>
+                                            <span>Bedrooms</span></div>
+                                        <div class="box-bottom">    
+                                            <strong>2</strong>
+                                            <i class="fa-solid fa-person"></i>
+                                            <span>Bedrooms</span></div>
+                                        <div class="box-bottom">
+                                            <strong>3450</strong>
+                                            <i class="fa-solid fa-square"></i>
+                                            <span>Square Ft</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        </div> 
+                        </div>
+                        <div class="box-property">
+                            <div class="img-property">
+                                <a href="#"><img src="img/property-3.jpg" alt="text"></a>
+                            </div>
+                            <div class="info-property">
+                                <a href="#"><span class="for-rent">For Rent</span>
+                                </a>
+                                <a href="#">
+                                    <address class="property-address">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <span>Belmont Gardens, Chicago</span>
+                                    </address>
+                                    
+                                </a>
+                                <a href="#" class="icon-photo-property">
+                                    <span><i class="fa-solid fa-camera"></i>4</span>
+                                    <span><i class="fa-solid fa-film"></i>2</span>
+                                </a>
+                                <div class="text-property">
+                                    <div class="text-box">
+                                        <strong class="price-property">$34,900/Month</strong>
+                                        <a href="#">
+                                            <h3>New Apartment Nice View</h3>
+                                        </a>
+                                        <p>Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood</p>
+                                    <div class="big-box-bottom">
+                                        <div class="box-bottom">                                   
+                                            <strong>3</strong>
+                                            <i class="fa-solid fa-bed"></i>
+                                            <span>Bedrooms</span></div>
+                                        <div class="box-bottom">    
+                                            <strong>2</strong>
+                                            <i class="fa-solid fa-person"></i>
+                                            <span>Bedrooms</span></div>
+                                        <div class="box-bottom">
+                                            <strong>3450</strong>
+                                            <i class="fa-solid fa-square"></i>
+                                            <span>Square Ft</span>
+                                        </div>
+                                        </div>
+                                    </div>
+                        </div>
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
     </div>
-</div>
 
+
+    <div class="our " id="our">
+    <div class="containar-our animate__animated animate__backInRight">
+        <div class="info-our">
+            <p class="title-p">Our Aminities</p>
+            <h1>Building Aminities</h1>
+        </div>
+        <div class="boxs-our">
+            <div class="cards-our">
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-car"></i></div>
+                        <h3>Parking Space</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-droplet"></i></div>
+                        <h3>Swimming Pool</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-shield"></i></div>
+                        <h3>Private Security</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-regular fa-heart"></i></div>
+                        <h3>Medical Center</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-swatchbook"></i></div>
+                        <h3>Library Area</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-bed"></i></div>
+                        <h3>King Size Beds</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-house"></i></div>
+                        <h3>Smart Homes</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+                <div class="box-our">
+                    <a href="#">
+                        <div class="icon-our"><i class="fa-solid fa-futbol"></i></div>
+                        <h3>Kid’s Playland</h3>
+                        <div class="icon-our-bottom"><i class="fa-solid fa-arrow-right"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    
-</div>
+        </div>
 
-<div class="section-2">
-    <div class="container-section-2">
-        <div class="icon-section-2 animate__animated animate__backInUp">
-            <div class="box-section-2">
-                <a href="#" class="boxs-2">
-                    <i class="fa-solid fa-hotel"></i>
-                    <p>Real Estate</p>
-                    <p class="number">3,921</p>
-                </a>
-            </div> 
-            <div class="box-section-2">
-                <a href="#" class="boxs-2">
-                    <i class="fa-solid fa-book"></i>
-                    <p> Books & Magazines</p>
-                    <p class="number">398</p>
-                </a>
-            </div> 
-            <div class="box-section-2">
-                <a href="#" class="boxs-2">
-                    <i class="fa-solid fa-bed"></i>
-                    <p>Furniture</p>
-                    <p class="number">1,229</p>
-                </a>
-            </div> 
-            <div class="box-section-2">
-                <a href="#" class="boxs-2">
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <p>Electronics</p>
-                    <p class="number">32,891</p>
-                </a>
-            </div> 
-            <div class="box-section-2">
-                <a href="#" class="boxs-2">
-                    <i class="fa-solid fa-car"></i>
-                    <p>Cars & Vechicels</p>
-                    <p class="number">29,221</p>
-                </a>
-            </div> 
-            <div class="box-section-2">
-                <a href="#" class="boxs-2">
-                    <i class="fa-solid fa-circle-info"></i>
-                    <p>Other</p>
-                    <p class="number">219</p>
-                </a>
-            </div> 
-        </div>
-        <div class="cards-section-2 animate__animated animate__backInUp">
-            <h2>Featured Ads</h2>
-            <div class="ads" id="ads">
-                <div class="card-section-2">
-                    <div class="img-card"><img src="img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43 (1).webp" alt="text"></div>
-                        <div class="text-up">
-                            <p class="number">Cars & Vechicels</p>
-                            <i class="fa-solid fa-heart"></i>
+    <div class="blog" id="blog">
+        <div class="container-blog  animate__animated animate__zoomInDown">
+            <div class="info-blog">
+                <p class="title-p">News & Blogs</p>
+                <h1>Leatest News Feeds</h1>
+            </div>
+            <div class="content-blog">
+                <div class="boxs-blog">
+                    <div class="big-box">
+                        <div class="box-blog">
+                            <div class="img-blog">
+                                <a href="#"><img src="img/blog-1.png" alt="text"></a>
+                            </div>
+                            <div class="text-blog">
+                                <a href="#" class="by-admin">
+                                    <i class="fa-solid fa-person"></i>
+                                    <p>by:Admin</p>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <p>interior</p>
+                                </a>
+                                <a href="#">
+                                    <h3>The Most Inspiring Interior Design Of 2021</h3>
+                                </a>
+                                <p class="bottom-p-bold"><i class="fa-solid fa-calendar"></i>Apr 27, 2022</p>
+                                <a href="#" class="bottom-a-bold">READ MORE</a>
+                            </div>
                         </div>
-                        <h3>House with Swimming Pool</h3>
-                        <p>Don St. Brooklyn, New York</p>
-                        <div class="text-bottom">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: black;"></i>
-                            <p>
-                                (3 Reviews)</p>
+                        <div class="box-blog">
+                            <div class="img-blog">
+                                <a href="#"><img src="img/blog-2.jpg" alt="text"></a>
+                            </div>
+                            <div class="text-blog">
+                                <a href="#" class="by-admin">
+                                    <i class="fa-solid fa-person"></i>
+                                    <p>by:Admin</p>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <p>Estate</p>
+                                </a>
+                                <a href="#">
+                                    <h3>Recent Commercial Real Estate Transactions</h3>
+                                </a>
+                                <p class="bottom-p-bold"><i class="fa-solid fa-calendar"></i>Apr 27, 2022</p>
+                                <a href="#" class="bottom-a-bold">READ MORE</a>
+                            </div>
                         </div>
-                    </div>
-                <div class="card-section-2">
-                    <div class="img-card"><img src="img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43 (1).webp" alt="text"></div>
-                        <div class="text-up">
-                            <p class="number">Cars & Vechicels</p>
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <h3>House with Swimming Pool</h3>
-                        <p>Don St. Brooklyn, New York</p>
-                        <div class="text-bottom">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: black;"></i>
-                            <p>
-                                (3 Reviews)</p>
-                        </div>
-                    </div>
-                <div class="card-section-2">
-                    <div class="img-card"><img src="img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43 (1).webp" alt="text"></div>
-                        <div class="text-up">
-                            <p class="number">Cars & Vechicels</p>
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <h3>House with Swimming Pool</h3>
-                        <p>Don St. Brooklyn, New York</p>
-                        <div class="text-bottom">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: black;"></i>
-                            <p>
-                                (3 Reviews)</p>
-                        </div>
-                    </div>
-                <div class="card-section-2">
-                    <div class="img-card"><img src="img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43 (1).webp" alt="text"></div>
-                        <div class="text-up">
-                            <p class="number">Cars & Vechicels</p>
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <h3>House with Swimming Pool</h3>
-                        <p>Don St. Brooklyn, New York</p>
-                        <div class="text-bottom">
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star" style="color: black;"></i>
-                            <p>
-                                (3 Reviews)</p>
+                        <div class="box-blog">
+                            <div class="img-blog">
+                                <a href="#"><img src="img/blog-3.jpg" alt="text"></a>
+                            </div>
+                            <div class="text-blog">
+                                <a href="#" class="by-admin">
+                                    <i class="fa-solid fa-person"></i>
+                                    <p>by:Admin</p>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <p>Room</p>
+                                </a>
+                                <a href="#">
+                                    <h3>Renovating a Living Room? Experts Share Their Secrets</h3>
+                                </a>
+                                <p class="bottom-p-bold"><i class="fa-solid fa-calendar"></i>Apr 27, 2022</p>
+                                <a href="#" class="bottom-a-bold">READ MORE</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>
-
-<div class="section-3">
-    <div class="container-section-3">
-        <div class="text-3">
-            <h3>Popular Products</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
         </div>
-            <div class="cards-section-3  animate__animated animate__backInRight">
-                <div class="popular">
-                    <div class="card-section-3">
-                        <div class="img-3">
-                            <img src="img/car.webp" alt="text">
-                        </div>
-                        <div class="text-section-3">
-                            <p class="sec3">Cars & Vechicels</p>
-                            <h4>Red Luxury Car</h4>
-                            <a href="#" class="bottom-sec3">
-                                <p>West Orange, New York</p>
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-section-3">
-                        <div class="img-3">
-                            <img src="img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43 (1).webp" alt="">
-                        </div>
-                        <div class="text-section-3">
-                            <p class="sec3">Cars & Vechicels</p>
-                            <h4>Red Luxury Car</h4>
-                            <a href="#" class="bottom-sec3">
-                                <p>West Orange, New York</p>
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-section-3">
-                        <div class="img-3">
-                            <img src="img/chair.webp" alt="text">
-                        </div>
-                        <div class="text-section-3">
-                            <p class="sec3">Cars & Vechicels</p>
-                            <h4>Red Luxury Car</h4>
-                            <a href="#" class="bottom-sec3">
-                                <p>West Orange, New York</p>
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="big-cards-sec3  animate__animated animate__backInLeft">
-                <div class="popular">
-                    <div class="card-section-3">
-                        <div class="img-3-sec">
-                            <img src="img/phone.webp" alt="">
-                        </div>
-                        <div class="text-section-3">
-                            <p class="sec3">Cars & Vechicels</p>
-                            <h4>Red Luxury Car</h4>
-                            <a href="#" class="bottom-sec3-">
-                                <p>West Orange, New York</p>
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </div>
-            </div>
-                </div>
-                <div class="popular">
-                    <div class="card-section-3">
-                        <div class="img-3-sec">
-                            <img src="img/ximg_2.jpg.pagespeed.ic.5-pth7OZ43 (1).webp" alt="">
-                        </div>
-                        <div class="text-section-3">
-                            <p class="sec3">Cars & Vechicels</p>
-                            <h4>Red Luxury Car</h4>
-                            <a href="#" class="bottom-sec3-">
-                                <p>West Orange, New York</p>
-                                <i class="fa-solid fa-heart"></i>
-                            </a>
-                        </div>
-            </div>
-                </div>
-            </div>
     </div>
-</div>
 
-<div class="section-4">
-    <div class="container-section-4">
-            <h3 class="top-sec4">Trending Today</h3>
-            <div class="big-box">
-                <div class="big-box-sec4">
-                    <div class="cards-section-4  animate__animated animate__backInLeft">
-                        <div class="card-4">
-                            <div class="card-sec4">
-                                <a href="#"><img src="img/car.webp" alt="text"></a>
-                                <div class="text-up">
-                                    <a href="#" class="text-up-4">
-                                        <p class="number">Cars & Vechicels</p>
-                                        <i class="fa-solid fa-heart"></i>
-                                    </a>
-                                    <h3>House with Swimming Pool</h3>
-                                    <p>Don St. Brooklyn, New York</p>
-                                    <div class="text-bottom">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: black;"></i>
-                                        <p>
-                                            (3 Reviews)</p>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    <div class="cards-section-4  animate__animated animate__backInLeft">
-                        <div class="card-4">
-                            <div class="card-sec4">
-                                <a href="#"><img src="img/car.webp" alt="text"></a>
-                                <div class="text-up">
-                                    <a href="#" class="text-up-4">
-                                        <p class="number">Cars & Vechicels</p>
-                                        <i class="fa-solid fa-heart"></i>
-                                    </a>
-                                    <h3>House with Swimming Pool</h3>
-                                    <p>Don St. Brooklyn, New York</p>
-                                    <div class="text-bottom">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: black;"></i>
-                                        <p>
-                                            (3 Reviews)</p>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    <div class="cards-section-4  animate__animated animate__backInLeft">
-                        <div class="card-4">
-                            <div class="card-sec4">
-                                <a href="#"><img src="img/car.webp" alt="text"></a>
-                                <div class="text-up">
-                                    <a href="#" class="text-up-4">
-                                        <p class="number">Cars & Vechicels</p>
-                                        <i class="fa-solid fa-heart"></i>
-                                    </a>
-                                    <h3>House with Swimming Pool</h3>
-                                    <p>Don St. Brooklyn, New York</p>
-                                    <div class="text-bottom">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: black;"></i>
-                                        <p>
-                                            (3 Reviews)</p>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-    
-    
-                </div>
-                <div class="big-box-sec4">
-                    <div class="cards-section-4 animate__animated animate__backInRight">
-                        <div class="card-4">
-                            <div class="card-sec4">
-                                <a href="#"><img src="img/car.webp" alt="text"></a>
-                                <div class="text-up">
-                                    <a href="#" class="text-up-4">
-                                        <p class="number">Cars & Vechicels</p>
-                                        <i class="fa-solid fa-heart"></i>
-                                    </a>
-                                    <h3>House with Swimming Pool</h3>
-                                    <p>Don St. Brooklyn, New York</p>
-                                    <div class="text-bottom">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: black;"></i>
-                                        <p>
-                                            (3 Reviews)</p>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    <div class="cards-section-4 animate__animated animate__backInRight">
-                        <div class="card-4">
-                            <div class="card-sec4">
-                                <a href="#"><img src="img/car.webp" alt="text"></a>
-                                <div class="text-up">
-                                    <a href="#" class="text-up-4">
-                                        <p class="number">Cars & Vechicels</p>
-                                        <i class="fa-solid fa-heart"></i>
-                                    </a>
-                                    <h3>House with Swimming Pool</h3>
-                                    <p>Don St. Brooklyn, New York</p>
-                                    <div class="text-bottom">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: black;"></i>
-                                        <p>
-                                            (3 Reviews)</p>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    <div class="cards-section-4 animate__animated animate__backInRight">
-                        <div class="card-4">
-                            <div class="card-sec4">
-                                <a href="#"><img src="img/car.webp" alt="text"></a>
-                                <div class="text-up">
-                                    <a href="#" class="text-up-4">
-                                        <p class="number">Cars & Vechicels</p>
-                                        <i class="fa-solid fa-heart"></i>
-                                    </a>
-                                    <h3>House with Swimming Pool</h3>
-                                    <p>Don St. Brooklyn, New York</p>
-                                    <div class="text-bottom">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: black;"></i>
-                                        <p>
-                                            (3 Reviews)</p>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-    
-    
-                </div>
+    <section class="cta">
+        <div class="container  animate__animated animate__fadeInDown">
+            <div class="cta-card">
+                <div class="card-content">
+                    <h2 class="h2 card-title">Looking for a dream home?</h2>
+                    <p class="card-text">We can help you realize your dream of a new home</p>
             </div>
+            <button class="btn cta-btn">
+            <span>Explore Properties</span>
+            <i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
-</div>
+        </div>
+    </section>
 
-<div class="section-5">
-    <div class="container-section-5">
-        <div class="top-sec-5  animate__animated animate__backInUp">
-            <h3 class="h3-sec5">Testimonials</h3>
-            <a href="#" class="img-sec5">
-                <img src="img/me.jpg" alt="text">
-                <p>Hussein Ahmed</p>
+    <footer class="footer" id="contact">
+
+        <div class="footer-top">
+        <div class="container">
+            <div class="footer-brand">
+            <a href="#" class="logo">
+                <img src="img/logo-light.png" alt="Homeverse logo">
             </a>
-            <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”</p>
+    
+            <p class="section-text">
+                Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+            </p>
+            <ul class="contact-list">
+    
+                <li>
+                <a href="#" class="contact-link">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span>Hussein Ahmed</span>
+                 </a>
+                </li>
+    
+                <li>
+                  <a href="tel:+01010937**" class="contact-link">
+                    <i class="fa-solid fa-phone"></i>
+    
+                    <span>+010109376**</span>
+                  </a>
+                </li>
+    
+                <li>
+                <a href="mailto:contact@homeverse.com" class="contact-link">
+                    <i class="fa-solid fa-inbox"></i>
+                    <span>contact@homeverse.com</span>
+                  </a>
+                </li>
+    
+              </ul>
+    
+            <ul class="logos-footer">
+                <li>
+                    <a href="#" class="header-top-social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="header-top-social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="header-top-social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="header-top-social-link">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                </li>
+            </ul>
+    
+            </div>
+    
+            <div class="footer-link-box">
+    
+              <ul class="footer-list">
+    
+                <li>
+                  <p class="footer-list-title">Company</p>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">About</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Blog</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">All Products</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Locations Map</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+    
+              </ul>
+    
+              <ul class="footer-list">
+    
+                <li>
+                  <p class="footer-list-title">Services</p>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Order tracking</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Wish List</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Login</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">My account</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Terms &amp; Conditions</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Promotional Offers</a>
+                </li>
+    
+              </ul>
+    
+              <ul class="footer-list">
+    
+                <li>
+                  <p class="footer-list-title">Customer Care</p>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Login</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">My account</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Wish List</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Order tracking</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">FAQ</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+          </div>
         </div>
-        <div class="cards-sec-5  animate__animated animate__backInRight">
-            <div class="card-sec-5">
-                <a href="#" class="img-sec-5-2">
-                    <img src="img/xhero_1.jpg.pagespeed.ic.6EEnhRLjFc.webp" alt="text">
-                </a>
-                <h4>Many People Selling Online</h4>
-                <p class="p-text">by Maker spiker • Jan 18, 2019 • <a href="3"><span>News</span></a> </p>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</h5>
-            </div>
-            <div class="card-sec-5">
-                <a href="#" class="img-sec-5-2">
-                    <img src="img/xhero_1.jpg.pagespeed.ic.6EEnhRLjFc.webp" alt="text">
-                </a>
-                <h4>Many People Selling Online</h4>
-                <p class="p-text">by Maker spiker • Jan 18, 2019 • <a href="3"><span>News</span></a> </p>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</h5>
-            </div>
-            <div class="card-sec-5">
-                <a href="#" class="img-sec-5-2">
-                    <img src="img/xhero_1.jpg.pagespeed.ic.6EEnhRLjFc.webp" alt="text">
-                </a>
-                <h4>Many People Selling Online</h4>
-                <p class="p-text">by Maker spiker • Jan 18, 2019 • <a href="3"><span>News</span></a> </p>
-                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</h5>
-            </div>
-        </div>
-        <button class="but-card">View All Posts</button>
-    </div>
-</div>
-
-<div class="section-6">
-    <div class="container-section-6 animate__animated animate__backInUp">
-        <div class="text-sec-6">
-            <h3>Newsletter</h3>
-            <p class="text-p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <input type="email" value="Email">
-        <button>Suscribe</button>
-    </div>
-</div>
-
-<div class="footer">
-    <div class="container-footer">
-        <div class="text-footer">
-            <div class="text-fot-1">
-                <h3>About</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rerum unde possimus molestias dolorem fuga, illo quis fugiat!</p>
-            </div>
-            <div class="text-fot-2">
-                <h3>Navigations</h3>
-                <p>About Us</p>
-                <p>Services</p>
-                <p>Testimonials</p>
-                <p>Contact Us</p>
-            </div>
-            <div class="text-fot-3">
-                <h3>Follow Us</h3>
-                <ul class="logos-fot">
-                    <li>
-                        <a href="#" class="header-top-social-link">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="header-top-social-link">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="header-top-social-link">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="header-top-social-link">
-                            <i class="fa-brands fa-pinterest"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="text-fot-4">
-                <input type="footer" value="Search Porducts. . .">
-                <button>Submit</button>
-            </div>
-        </div>
+    
         <div class="footer-bottom">
-            <p>Copyright ©2022 All rights reserved | This template is made by Colorlib</p>
+        <div class="container">
+    
+            <p class="copyright">
+            © 2022 <a href="#">codewithsadee</a>. All Rights Reserved
+            </p>
+    
         </div>
-    </div>
-</div>
+        </div>
+    
+    </footer>
 </body>
-</html> 
+</html>
